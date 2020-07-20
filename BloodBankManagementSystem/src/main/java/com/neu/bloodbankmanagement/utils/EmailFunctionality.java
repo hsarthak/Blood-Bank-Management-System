@@ -11,7 +11,7 @@ public class EmailFunctionality {
 	    Email email = new SimpleEmail();
 	    email.setHostName("smtp.googlemail.com");
 	    email.setSmtpPort(465);
-	    email.setAuthenticator(new DefaultAuthenticator("samsamberg2311@gmail.com", "Saurabh1993$"));
+	    email.setAuthenticator(new DefaultAuthenticator("hsarthak@yahoo.in", "Sarthak1994$"));
 	    email.setSSLOnConnect(true);
 	    email.setFrom("do-not-reply@gmail.com");
 	    email.setSubject("Blood Request Update :: "+bloodbankName);
